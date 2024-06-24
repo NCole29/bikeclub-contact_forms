@@ -1,24 +1,22 @@
-# Bike Club - 
+# Bike Club - Contact Forms
 
 ## Overview
 
-This recipe installs configuration for media types (image and file), image styles, and related taxonomies.
- 
+Installs contact forms so that email addresses need not be exposed on the website. 
+
+The following contact forms are configured:
+
+Form 		| Email address placeholder
+-----		|------------------
+Feedback	| info@example.org
+Membership	| membership@example.org
+Rides		| rides@example.org
+
+Edit and add contact forms at Structure > Contact forms.
+
 ## Contributed Modules Installed by the Recipe
 
 Module 				  | Description
 ----------------------|------------
-Crop				  | Provides storage and API for image crops.
-Views slideshow 	  | Provides a View style that displays rows as a jQuery slideshow.
-Views slideshow cycle | Adds a Rotating slideshow mode to Views Slideshow.
+Contact Storage		  | Provides storage for contact messages.
 
-
-## Default Content
-
-Taxonomies:
-
-- Image categories: Announcement, Banner, Event, Recurring ride, Ride, Icon, People, Other
-
-- File categories: Admin files, Member files, Public files, Cue sheet
-
-When images are added to web pages, code in the club_media module automatically populates the image category with the name of the content type (Announcement, Banner, Event, Recurring ride, Ride).

@@ -4,7 +4,7 @@ dependencies: {  }
 id: rides
 label: Rides
 recipients:
-  - rides@nscyc.org
+  - rides@example.org
 reply: ''
 weight: 0
 message: ''
