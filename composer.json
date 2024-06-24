@@ -1,0 +1,17 @@
+{
+    "name": "bikeclub/bikeclub-contact_forms",
+    "description": "Installs contact forms and contact storage for Bike Club website.",
+    "keywords": ["recipe", "Drupal standard install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nancy Cole",
+            "homepage": "https://bikeclubsites.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+		"drupal/contact_storage": "*"
+    }
+}

@@ -1,0 +1,24 @@
+name: 'Bike Club contact forms'
+description: 'Provide personal contact form plus forms for website feedback, membership, and rides.'
+type: 'Contact form'
+install:
+  - contact
+  - views
+# Contrib
+  - contact_storage
+config:
+  import:
+    contact:
+      - contact.form.personal
+    contact_storage: '*'
+  actions:
+    user.role.anonymous:
+      grantPermissions:
+        - 'access site-wide contact form'
+        - 'access user contact forms'
+    user.role.authenticated:
+      grantPermissions:
+        - 'access site-wide contact form'
+        - 'access user contact forms'
+    user.role.site_admin:
+      grantPermission: 'administer contact forms'

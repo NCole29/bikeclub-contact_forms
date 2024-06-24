@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: rides
+label: Rides
+recipients:
+  - rides@nscyc.org
+reply: ''
+weight: 0
+message: ''
+redirect: ''
