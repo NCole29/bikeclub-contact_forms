@@ -10,8 +10,8 @@ config:
   import:
     contact:
       - contact.form.personal
-    # Do not include 'system.action.contact_message_delete_action'. Its reformatted and rejected upon reinstall.
-    # Reformatted version is in recipe config folder.
+    # Do not include 'system.action.contact_message_delete_action' or 'views.view.contact_messages'.
+    # These get slight reformatting upon install. Exported versions are in config folder.
     contact_storage:
       - 'contact_storage.settings'
       - 'views.view.contact_messages'
