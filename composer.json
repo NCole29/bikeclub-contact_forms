@@ -1,6 +1,6 @@
 {
     "name": "bikeclub/bikeclub-contact_forms",
-    "description": "Installs contact forms and contact storage for Bike Club website.",
+    "description": "Provides personal contact form and forms for website feedback, membership, and rides.",
     "keywords": ["recipe", "Drupal standard install"],
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",

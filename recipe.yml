@@ -1,5 +1,5 @@
 name: 'Bike Club contact forms'
-description: 'Provide personal contact form plus forms for website feedback, membership, and rides.'
+description: 'Provides personal contact form and forms for website feedback, membership, and rides.'
 type: 'Contact form'
 install:
   - contact
